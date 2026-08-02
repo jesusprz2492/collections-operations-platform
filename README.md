@@ -42,6 +42,7 @@ npm run build
 
 - `GET /api/summary`
 - `GET /api/accounts`
+- `GET /api/export` - downloads the fictional account dataset as CSV
 
 Both endpoints return only the bundled fictional dataset.
 
@@ -52,4 +53,3 @@ A production deployment would add PostgreSQL persistence, tenant isolation, RBAC
 ## Author
 
 Built by **Jesus Perez** as a sanitized software-engineering portfolio project.
-

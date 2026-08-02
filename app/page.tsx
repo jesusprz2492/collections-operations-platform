@@ -14,8 +14,7 @@ export default function Dashboard() {
   return (
     <main>
       <aside>
-        <div className="brand-mark">A</div>
-        <div>
+        <div className="brand">
           <strong>Atlas</strong>
           <span>Collections Operations</span>
         </div>
@@ -31,11 +30,9 @@ export default function Dashboard() {
       <section className="content" id="overview">
         <header>
           <div>
-            <p className="eyebrow">OPERATIONS CONTROL ROOM</p>
             <h1>Receivables, prioritized.</h1>
-            <p>One accountable view of balances, promises, risk, and the next human action.</p>
           </div>
-          <button type="button">Export demo report</button>
+          <a className="export-button" href="/api/export">Export CSV</a>
         </header>
 
         <section className="metrics" aria-label="Portfolio metrics">
@@ -77,4 +74,3 @@ export default function Dashboard() {
     </main>
   );
 }
-
