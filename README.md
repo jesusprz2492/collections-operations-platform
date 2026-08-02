@@ -4,6 +4,8 @@ A privacy-safe Next.js demonstration of a receivables workflow: portfolio visibi
 
 ![Synthetic data](https://img.shields.io/badge/data-100%25%20synthetic-84f3bd)
 
+![Collections Operations Platform dashboard](docs/dashboard.png)
+
 ## Public-project boundary
 
 This repository was created with a fresh history and fictional records. It does not contain client names, documents, credentials, branding, messages, or source history from any commercial implementation.
@@ -44,7 +46,7 @@ npm run build
 - `GET /api/accounts`
 - `GET /api/export` - downloads the fictional account dataset as CSV
 
-Both endpoints return only the bundled fictional dataset.
+All endpoints return only the bundled fictional dataset.
 
 ## Production evolution
 
